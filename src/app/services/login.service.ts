@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 
-@Injectable()
+@Injectable( {providedIn: 'root'} )
 export class LoginService {
     public UserName: string;
 
@@ -12,12 +12,13 @@ export class LoginService {
     getUserName() {
         console.log('LoginService.getUserName()=' + this.UserName);
         return (this.UserName);
-    };
+    }
 
     setUserName(UserName: string) {
         this.UserName = UserName;
         console.log('LoginService.UserName=' + this.UserName);
-    };
+    }
 }
+
 
 
