@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { routerTransition } from '../../router.animations';
+import {Table1Service} from './../../services';
 
 @Component({
     selector: 'app-tables',
@@ -8,7 +9,14 @@ import { routerTransition } from '../../router.animations';
     animations: [routerTransition()]
 })
 export class TablesComponent implements OnInit {
-    constructor() {}
+    // private Table1Data: Array<any>;
+    private Table1Data: any;
+
+    // constructor() {}
+    constructor(table1Service: Table1Service) {
+        this.Table1Data = table1Service.getTable1Data();
+    }
+
 
     ngOnInit() {}
 }
