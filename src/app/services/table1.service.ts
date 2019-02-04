@@ -1,6 +1,9 @@
 ﻿import { Injectable } from '@angular/core';
 
-
+// Singleton services
+// Beginning with Angular 6.0, the preferred way to create a singleton service is to specify on
+//  the service that it should be provided in the application root.
+// This is done by setting providedIn to root on the service's @Injectable decorator:
 // The @Injectable() decorator tells Angular that this service might itself have injected dependencies
 
 // Since Angular6, recommended, way to register a provider is directly inside the @Injectable() decorator
