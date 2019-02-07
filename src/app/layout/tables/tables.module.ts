@@ -13,7 +13,7 @@ import { PageHeaderModule } from './../../shared';
     // instance of the service in this module and inject into any class/Component
     //  that asks for it. then the service is being shared by all components of this module
     // providers: [Table1Service], // Since Angular6 we can directly inject in the service class.
-
+    providers: [],
     declarations: [TablesComponent]
 })
 export class TablesModule {}

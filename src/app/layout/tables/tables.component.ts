@@ -10,7 +10,7 @@ import {Table1Service} from './../../services';
 })
 export class TablesComponent implements OnInit {
     // private Table1Data: Array<any>;
-    private Table1Data: any;
+    public Table1Data: any;
 
     // constructor() {}
     constructor(table1Service: Table1Service) {
