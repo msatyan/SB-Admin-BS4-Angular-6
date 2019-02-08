@@ -9,6 +9,7 @@
     "Menu": "Menu",
     "Submenu": "Submenu",
     "Blank Page": "Blank Page",
+    "New Page": "New Page",
     "More Theme": "More Themes",
     "Download Now": "Download Now",
     "Language": "Language",
@@ -28,5 +29,13 @@
     "Pending Task" : "Pending Task",
     "In queue" : "In queue",
     "Mail" : "Mail",
-    "View All" : "View All"
+    "View All" : "View All",
+    "More Themes" : "More Themes",
+    "Collapse Sidebar" : "Collapse Sidebar",
+    "Full Name": "Full Name",
+    "Email": "Email",
+    "Password": "Password",
+    "Repeat Password": "Repeat Password",
+    "Register": "Register",
+    "Log in": "Log in"
 }
